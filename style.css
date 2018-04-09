@@ -32,6 +32,11 @@ a:hover{
 a:active{
     font-size: 120%;
 }
+a.menulink:hover{
+    color:darkorange;
+    cursor: pointer;
+    transition:all 0.45s;
+}
 
 #Container{
     width:1000px;
@@ -83,7 +88,6 @@ a:active{
     width:300px;
     text-align:center;
     margin-right: 5px;
-    
 }
 
 #rightContent{

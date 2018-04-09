@@ -1,5 +1,5 @@
 body{
-    background-image:url(stardust.png);
+    background-image:url(wood.png);
     font-family: 'Ubuntu Condensed', sans-serif;
     font-size:20px;
     color:white;
@@ -16,13 +16,19 @@ h2{
 }
 
 a:link{
-    color: orange;
+    color: white;
+	text-decoration:none;
 }
 a:visited{
-    color: orange;
+    color: white;
+	text-decoration:none;
 }
 a:hover{
-    color: orange;
+    color: white;
+	text-decoration:none;
+}
+a:active{
+    font-size: 120%;
 }
 
 #Container{
@@ -36,8 +42,8 @@ a:hover{
     color: white;
     text-align: center;
     padding: 15px;   
-    opacity:0.7;
-    filter:alpha(opacity=70);
+    opacity:0.8;
+    filter:alpha(opacity=80);
 }
 
 #Menu{
@@ -46,8 +52,8 @@ a:hover{
     min-height:50px;
     padding: 20px;
     font-size:25px;
-    opacity:0.7;
-    filter:alpha(opacity=70);
+    opacity:0.9;
+    filter:alpha(opacity=0);
 }
 
 #Content{

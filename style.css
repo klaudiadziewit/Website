@@ -1,0 +1,109 @@
+body{
+    background-image:url(stardust.png);
+    font-family: 'Ubuntu Condensed', sans-serif;
+    font-size:20px;
+    color:white;
+}
+
+h1{
+    color:orange;
+    font-size:48px;
+}
+
+h2{
+    color:black;
+    margin-left:40px;
+}
+
+a:link{
+    color: orange;
+}
+a:visited{
+    color: orange;
+}
+a:hover{
+    color: orange;
+}
+
+#Container{
+    width:1000px;
+    margin-left: auto;
+    margin-right: auto; 
+}
+
+#Logo{
+    background-color: black;
+    color: white;
+    text-align: center;
+    padding: 15px;   
+    opacity:0.7;
+    filter:alpha(opacity=70);
+}
+
+#Menu{
+    background-color: darkgray;
+    margin-top:10px;
+    min-height:50px;
+    padding: 20px;
+    font-size:25px;
+    opacity:0.7;
+    filter:alpha(opacity=70);
+}
+
+#Content{
+    margin-top:10px;
+    background-color: white;
+    width:980px;
+    min-height:500px;
+    padding: 10px;
+    opacity:0.8;
+    filter:alpha(opacity=80);
+}
+
+#Footer{
+    margin-top:10px;
+    background-color: black;
+    color:orange;
+    text-align:center;
+    padding:20px;
+    font-size:12px;
+    opacity:0.7;
+    filter:alpha(opacity=70);
+}
+
+#leftContent{
+    float:left;
+    margin-right: 10px;
+    padding: 20px;
+    width:300px;
+    text-align:center;
+    margin-right: 5px;
+    
+}
+
+#rightContent{
+    float:left;
+    margin-left: 10px;
+    width:580px;
+    font-size:20px;
+    color: black;
+    text-align:justify;
+    border-left:1px dotted darkorange;
+    padding:15px;
+    border-spacing:10px;
+    position:relative;
+}
+
+.Option{
+    float:left;
+    height:25px;
+    font-size:18;
+    padding:10px;
+    margin-left: 105px;   
+}
+
+.Option:hover{
+    color:orange;
+    cursor: pointer;
+    transition:all 0.45s;
+}
